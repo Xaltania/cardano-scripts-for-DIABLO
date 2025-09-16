@@ -1,0 +1,34 @@
+--- # Required Testnet Parameters
+poolCount: 30
+poolCost: 340000000
+poolMargin: 0.0
+poolPledge: 0
+delegatedSupply: 600000000000000
+systemStart: 'now'
+systemStartDelay: 2
+networkMagic: 42
+testnetDomain: testnet.local.net
+
+--- # Optional Byron Genesis Overide
+--- # Optional Shelley Genesis Overide
+maxLovelaceSupply: 45000000000000000
+protocolParams:
+  decentralisationParam: 0
+  protocolVersion:
+    major: 10
+    minor: 0
+--- # Optional Alonzo Genesis Overide
+--- # Optional Conway Genesis Overide
+--- # Optional Node Config Overide
+TestShelleyHardForkAtEpoch: 0
+TestAllegraHardForkAtEpoch: 0
+TestMaryHardForkAtEpoch: 0
+TestAlonzoHardForkAtEpoch: 0
+TestBabbageHardForkAtEpoch: 0
+TestConwayHardForkAtEpoch: 0
+LastKnownBlockVersion-Alt: 0
+LastKnownBlockVersion-Major: 6
+LastKnownBlockVersion-Minor: 0
+MaxKnownMajorProtocolVersion: 2
+ExperimentalProtocolsEnabled: true
+ExperimentalHardForksEnabled: true
